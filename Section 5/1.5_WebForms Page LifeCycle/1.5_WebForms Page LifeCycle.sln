@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5_WebForms Page LifeCycle", "1.5_WebForms Page LifeCycle\1.5_WebForms Page LifeCycle.csproj", "{342D38A9-7CC4-41E3-B3DB-4D7467AEB24F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342D38A9-7CC4-41E3-B3DB-4D7467AEB24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342D38A9-7CC4-41E3-B3DB-4D7467AEB24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342D38A9-7CC4-41E3-B3DB-4D7467AEB24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342D38A9-7CC4-41E3-B3DB-4D7467AEB24F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4937C8-D283-4AC1-AD3A-B2B797484F6F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.14_WebForms Page Directive", "1.14_WebForms Page Directive\1.14_WebForms Page Directive.csproj", "{7F8E5494-7EF5-4E2E-8C8C-ED83ACB991A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F8E5494-7EF5-4E2E-8C8C-ED83ACB991A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8E5494-7EF5-4E2E-8C8C-ED83ACB991A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8E5494-7EF5-4E2E-8C8C-ED83ACB991A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8E5494-7EF5-4E2E-8C8C-ED83ACB991A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F54E061-1467-4789-9D75-EF0446FF5FFD}
+	EndGlobalSection
+EndGlobal

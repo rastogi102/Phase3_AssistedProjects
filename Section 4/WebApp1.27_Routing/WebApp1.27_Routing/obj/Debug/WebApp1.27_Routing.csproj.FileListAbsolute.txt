@@ -1,0 +1,2 @@
+F:\Training Stuff\Database_ASP.NET\Assisted Projects\Section 4\WebApp1.27_Routing\WebApp1.27_Routing\obj\Debug\WebApp1.27_Routing.csproj.AssemblyReference.cache
+F:\Training Stuff\Database_ASP.NET\Assisted Projects\Section 4\WebApp1.27_Routing\WebApp1.27_Routing\obj\Debug\WebApp1.27_Routing.csproj.CoreCompileInputs.cache

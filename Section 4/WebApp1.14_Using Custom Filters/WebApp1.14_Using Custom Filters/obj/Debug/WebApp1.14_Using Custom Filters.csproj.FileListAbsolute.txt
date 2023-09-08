@@ -1,0 +1,2 @@
+F:\Training Stuff\Database_ASP.NET\Assisted Projects\Section 4\WebApp1.14_Using Custom Filters\WebApp1.14_Using Custom Filters\obj\Debug\WebApp1.14_Using Custom Filters.csproj.AssemblyReference.cache
+F:\Training Stuff\Database_ASP.NET\Assisted Projects\Section 4\WebApp1.14_Using Custom Filters\WebApp1.14_Using Custom Filters\obj\Debug\WebApp1.14_Using Custom Filters.csproj.CoreCompileInputs.cache

@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model WebApp1._22_AjaxEnabledForms.Models.StudentModel
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+<div class="container">
+    <br />
+    <h4>Edit Student using Ajax</h4>
+    <div class="row">
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "col-sm-6", @data_ajax = "true", @data_ajax_method = "post", @data_ajax_complete = "completed" }))
+        {
+            <div class="row">
+                <div class="col-sm-4">
+                    Name
+                </div>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(m => m.Name)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    Address
+                </div>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(m => m.Address)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    Class
+                </div>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(m => m.Class)
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    Email id
+                </div>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(m => m.Email)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-right">
+                    <button class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        completed = function (xhr) {
+            alert(xhr.responseText);
+        };
+    </script>
+}
+
